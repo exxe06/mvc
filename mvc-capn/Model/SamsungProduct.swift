@@ -1,5 +1,5 @@
 //
-//  AppleProduct.swift
+//  SamsungProduct.swift
 //  mvc-capn
 //
 //  Created by exxe on 27.10.18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AppleProduct {
+class SamsungProducts {
     public private(set) var name: String
     public private(set) var color: String
     public private(set) var price: Double
@@ -19,5 +19,3 @@ class AppleProduct {
         self.price = price
     }
 }
-
-//let appleProduct = AppleProduct(name: "iPhone X", color: "Space Grey", price: 999.99)
